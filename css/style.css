@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+  --color-primary:#415da1;
+  --color-secondary:#e9f0ff;
+  --color-font:#39394a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first{
+  background-image: url(../images/doctors09.jpg);
+  width: 100%;
+  /* min-height: 800px; */
+  /* max-width: 100%; */
+  zoom: .8;
+}
+
+.app{
+border: 2px solid #415da1;
+background-color: #415da1;
+color: aliceblue;
+font-size: 20px;
+transition: 1s all ease;
+}
+.app:hover{
+border: 4px solid #415da1;
+border-radius: 10px;
+transform: translateY(-10px);
+}
+.navbar-brand {
+  margin-left: -120px;
+}
+.nav-item .nav-link{
+  margin-right: 26px;
+  margin-left: 26px;
+  color: #333;
+  text-transform: capitalize;
+}
+.navbar{
+   font-size: 25px;
+   padding-top: 40px;
+
+}
+.sience {
+  padding-right: 150px;
+}
+.navbar-expand-lg .navbar-nav{
+margin-left: 100px;
+}
+.sience p:first-of-type{
+  letter-spacing:6px;
+}
+.sience .box{
+color: #39394a;
+margin-top: 30%;
+}
+.sience h1{
+  font-size: 70px;
+  color: #323232;
+}
+.sience p{
+  font-size: 21px;
+  opacity: 0.9;
+  margin-top: 20px;
+  color: #323232;
+
+}
+.sience .btn{
+  background-color: #415da1 !important;
+  border: 2px solid #415da1  !important;
+  padding: 10px 20px;
+  color: aliceblue;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  transition: 1s all ease;
+}
+.sience .btn:hover{
+  transform: scale(1.1);
+}
+.imo{
+  display: flex;
+  margin-top: 20px;
+}
+.imo img{
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.imoge{
+  margin-right: 20px;
+  margin-left: 15px;
+}
+.imo span{
+  font-size: 20px;
+}
+.sience{
+  padding-bottom: 100px;
+}
+.our-service {
+  padding-top: 50px;
+}
+.our-service h2{
+  font-size: 28px;
+}
+.tab {
+  overflow: hidden;
+  /* margin: 10px 80px; */
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tablinks img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: white;
+
+}
+/* Create an active/current tablink class */
+/* .tab button.active {
+  background-color: #ccc;
+} */
+.tablinks {
+margin-bottom: 20px;
+margin-right: 25px;
+
+
+}
+.tablinks img{
+  background-color: #ebf2ff;
+  max-height: 300px;
+  max-width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+.onco{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.onco p{
+  margin: 12px;
+  font-size: 20px;
+  opacity: 0.9;
+}
+.imrgency {
+  display: flex;
+
+}
+.twoo::before{
+  content: ' ';
+  border: 0.5px black dashed;
+  height: 80px;
+  margin-right: 50px;
+  /* width: 2px; */
+
+
+}
+.imrgency h4{
+  font-size: 18px;
+}
+.imrgency p{
+  font-size: 16px;
+}
+.three{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.explain{
+  margin-left: 30px;
+}
+/* start section welcome */
+.welcome{
+  margin-top: 100px;
+}
+.welcome .four{
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.welcome .four p{
+  font-size: 18px;
+  opacity: 0.9;
+}
+.welcome .four .fir{
+letter-spacing: 4px;
+font-size: 20px;
+}
+.welcome .number{
+  display: flex;
+
+}
+.welcome .number span{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.welcome button{
+  background-color: #415da1;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome .number span h1{
+  color: #415da1;
+  font-size: 40px;
+
+}
+.welcome .number span{
+  margin-right: 20px;
+}
+.welcome .four h2{
+  margin-bottom: 26px;
+}
+/* end section */
+.w-ch{
+  margin-top: 50px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+.w-ch h1{
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.why{
+  letter-spacing: 3px;
+}
+.parent .all{
+  display: flex;
+  margin: 20px ;
+}
+.parent .img-svg{
+  margin-right: 30px;
+  border: 2px rgb(255, 255, 255) dotted;
+  border-radius: 5px;
+  height: 90px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(234 241 254);
+  box-shadow: 5px 10px #eeeaea;
+}
+.parent .speak p{
+opacity: 0.9;
+} 
+.parent{
+  margin-top: 80px;
+}
+.our-doctor .imp{
+  display: flex;
+  margin: 30px 15px;
+  width: 100%;
+}
+.our-doctor .dr p span{
+  margin-top: 10px;
+  padding-right: 5px;
+}
+
+.our-doctor .social{
+padding-top: 10px;
+ border-top: 1px rgb(181 180 180) solid;
+
+}
+  .our-doctor .imp {
+  margin-left: 0;
+    width: 100%;
+    border: 0.5px rgb(181 180 180) solid;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .our-doctor .imp p{
+    opacity: 0.9;
+  }
+  .our-doctor .imp img{
+    transition: 0.5s;
+    margin-right :20px;
+  }
+  .our-doctor .imp img:hover{
+transform: rotate(180deg);
+overflow: hidden;
+  }
+.our-doctor{
+  margin-bottom: 20px;
+}
+.our-doctor .imp h3{
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.our-doctor .imp .dr{
+  margin-left: 20px;
+}
+.civil-engineer{
+  display: flex;
+}
+.civil-engineer img{
+  margin-right: 10px !important;
+  height: 80px;
+  width: 80px;
+}
+.civil-engineer div{
+  margin-top: 20px;
+}
+.testimonial .row{
+  margin-top: 50px;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+.testimonial .row .box{
+  margin-left: 20px;
+}
+.testimonial .row .col-lg-4:first-child{
+  margin-bottom: 30px;
+}
+.all-test{
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px  solid var(--color-primary) ;
+transition: 0.5s;
+font-weight: 600;
+}
+
+.all-test:hover{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transform: translateY(-14px);
+}
+.num{
+  display: flex;
+  margin-bottom: 60px;
+}
+.num p{
+font-size: 20px;
+opacity: 0.9;
+margin: 10px 20px;
+}
+.date{
+  display: flex;
+}
+.date p:first-of-type{
+  margin-right: 80px;
+}
+.date .img-rounded{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.img-im{
+  width: 100%;
+}
+.medical{
+  border: 2px solid var(--color-secondary);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.all-med {
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.all-med h4{
+  font-size: 20px;
+}
+.all-med p{
+  opacity: 0.9;
+}
+.our-blog{
+  margin-bottom: 50px;
+}
+.date{
+  border-top: 0.2px solid #c9c6c6;
+  padding-top: 10px;
+}
+/* start section faq */
+.faq{
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.faq h1{
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.accordion-button{
+  font-weight: 600;
+  font-size: 20px;
+}
+.accordion-body p{
+  border-top: 0.4px solid #9b9b9b;
+  padding-top: 10px;
+}
+.accordion-item {
+  margin-bottom: 10px;
+ 
+   background-color: var(--color-secondary);
+  color: var(--color-font);
+  padding: 10px;
+}
+footer{
+  padding-left: 70px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.bocc{
+  margin-left: 60px;
+}
+.boc:last-of-type{
+  margin-left: 80px;
+}
+.boc img{
+  padding-bottom: 30px;
+}
+.boc .sociall{
+  padding-top: 20px;
+}
+footer p{
+  opacity: 0.8;
+  font-weight: 600;
+}
+footer h4{
+  padding-bottom: 10px;
+}
+footer h5{
+  margin-top: 25px;
+
+}
+footer h5 span{
+  color: #415da1;
+}
