@@ -9,8 +9,6 @@
 .first{
   background-image: url(../images/doctors09.jpg);
   width: 100%;
-  /* min-height: 800px; */
-  /* max-width: 100%; */
   zoom: .8;
 }
 
@@ -119,9 +117,12 @@ margin-top: 30%;
 }
 /* Change background color of buttons on hover */
 .tablinks img:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px, rgba(0, 0, 0, 0.12) 0px -12px 3px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 3px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   background-color: white;
 
+}
+.tablinks img{
+  transition: 2s;
 }
 /* Create an active/current tablink class */
 /* .tab button.active {
@@ -287,12 +288,13 @@ padding-top: 10px;
     opacity: 0.9;
   }
   .our-doctor .imp img{
-    transition: 0.5s;
+    transition: 3s;
     margin-right :20px;
   }
   .our-doctor .imp img:hover{
-transform: rotate(180deg);
+transform: scale(1.01);
 overflow: hidden;
+border-radius: 10px;
   }
 .our-doctor{
   margin-bottom: 20px;
